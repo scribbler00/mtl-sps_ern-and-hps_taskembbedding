@@ -11,7 +11,7 @@ sns.color_palette("colorblind", 8)
 # sns.set_context("poster")
 sns.set_style("whitegrid")
 mpl.rcParams["legend.loc"] = "upper center"
-FONT_SIZE = 22
+FONT_SIZE = 40
 params = {
     "axes.labelsize": FONT_SIZE,  # fontsize for x and y labels (was 10)
     "axes.titlesize": FONT_SIZE,
@@ -20,7 +20,8 @@ params = {
     "xtick.labelsize": FONT_SIZE,
     "ytick.labelsize": FONT_SIZE,
 }
-
+plt.rc("text", usetex=True)
+plt.rc("font", family="serif")
 mpl.rcParams.update(params)
 
 wind_folder = "./results/test_forecasts/wind/forecasts/"
