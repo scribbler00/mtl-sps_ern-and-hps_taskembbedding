@@ -1,0 +1,1 @@
+This repository aims at providing a research-framework for deep learning in the context of renewable energy with a strong focus on transfer and representation learning for time-series.

@@ -1,0 +1,30 @@
+.idea
+.swp
+.vscode
+.zip
+
+.ipynb_checkpoints/
+# Compiled python modules.
+*.pyc
+
+# Setuptools distribution folder.
+/dist/
+
+# Python egg metadata, regenerated from source files by setuptools.
+/*.egg-info
+/*.egg
+.eggs/
+
+env/
+
+build/
+results/
+coverage
+
+
+__pycache__
+.coverage
+**.ipynb_checkpoints
+
+data/
+env/

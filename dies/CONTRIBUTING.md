@@ -1,0 +1,1 @@
+Contribution according to http://scikit-learn.org/stable/developers/contributing.html

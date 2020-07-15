@@ -1,0 +1,8 @@
+numpy
+scipy
+sklearn
+matplotlib
+torch
+tensorwatch
+future
+fastprogress

@@ -1,0 +1,12 @@
+# This file is a template, and might need editing before it works on your project.
+# Unofficial language image. Look for the different tagged releases at:
+# https://hub.docker.com/r/scorpil/rust/tags/
+image: "python:3.7"
+
+test:
+  script:
+  # this configures Django application to use attached postgres database that is run on `postgres` host
+  - apt-get update -qy
+  - apt-get install -y python-dev python-pip
+  - pip install -r requirements.txt
+  - python setup.py test

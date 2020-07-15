@@ -1,0 +1,9 @@
+numpy
+scipy
+sklearn
+matplotlib
+torch
+pandas
+fastai
+seaborn
+nose
