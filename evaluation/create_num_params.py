@@ -15,7 +15,7 @@ def get_nparams(df):
         if k != "BASELINE" and k != "LSTM":
             params.append(_df.NParametes.values[0])
         else:
-            params.append(_df.NParametes.values[0] * _df.NParametes.shape[0])
+            params.append(_df.NParametes.values.sum())
 
         models.append(k)
     df_res = pd.DataFrame({"ModelType": models, "NParametes": params})

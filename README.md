@@ -88,7 +88,7 @@ In case of the BASELINE and the LSTM we sum up the parameters of all parks from 
 |  1 | CS          |       588293 |
 |  2 | ERN         |     10019804 |
 |  3 | HPS         |      5627216 |
-|  4 | LSTM        |         5376 |
+|  4 | LSTM        |      2161824 |
 |  5 | MLP         |        60691 |
 |  6 | SN          |      1926684 |
 
@@ -101,8 +101,9 @@ In case of the BASELINE and the LSTM we sum up the parameters of all parks from 
 |  1 | CS          |       588293 |
 |  2 | ERN         |     10019804 |
 |  3 | HPS         |      5627216 |
-|  4 | LSTM        |         4344 |
+|  4 | LSTM        |      3959696 |
 |  5 | MLP         |        60691 |
+|  6 | SN          |      1926684 |
 
 
 ## Solar2015 Dataset
@@ -113,8 +114,9 @@ In case of the BASELINE and the LSTM we sum up the parameters of all parks from 
 |  1 | CS          |       655223 |
 |  2 | ERN         |     16532983 |
 |  3 | HPS         |      9381629 |
-|  4 | MLP         |        48114 |
-|  5 | SN          |     15428431 |
+|  4 | LSTM        |     11774928 |
+|  5 | MLP         |        48114 |
+|  6 | SN          |     15428431 |
 
 
 ## GermanSolarFarm Dataset
@@ -125,6 +127,6 @@ In case of the BASELINE and the LSTM we sum up the parameters of all parks from 
 |  1 | CS          |      4091247 |
 |  2 | ERN         |    112158602 |
 |  3 | HPS         |     62739840 |
-|  4 | LSTM        |         1768 |
+|  4 | LSTM        |      3238944 |
 |  5 | MLP         |       249438 |
 |  6 | SN          |     53722448 |
